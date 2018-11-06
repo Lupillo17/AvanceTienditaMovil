@@ -1,0 +1,103 @@
+body{
+	
+}
+#contenedor{
+	margin-left: 33%;
+	margin-right: 33%;
+	border-color: blue;
+	border-style: groove;
+	border-width: 3px;
+	min-width: 450px;
+	max-width: 450px;
+	background-color: rgb(237,233,227);
+	height: 430px;
+}
+#TituloContenedor{
+	margin-top: 0%;
+	text-align: center;
+	background-color: rgb(18,103,147);
+	color: white;
+}
+
+/*
+	Cajas
+*/
+#cNombre{
+	margin-bottom: 5%;
+}
+#cNombre p{
+	display: inline;
+}
+
+#cExistencias p{
+	display: inline;
+}
+#cExistencias{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#cPrecio p{
+	display: inline;
+}
+#cPrecio{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#cCategoriaImg p{
+	display: inline;
+}
+
+#cCategoriaImg select{
+	margin-left:1.5%;
+}
+
+
+#contenedorImagen{
+	display: inline-block;
+	width: 80%;
+	height: 154px;
+	margin-left: 10%;
+	margin-top:5%;
+}
+
+#contenedorImagen img{
+	margin-bottom:10%;
+}
+
+#btnGuardarCancelar{
+	margin-top: 5%;
+	margin-left:66.46%;
+	margin-right: 5%;
+	width:133px;
+}
+
+
+
+
+/*
+	lbl
+*/
+#lblNombre{
+	margin-left: 10%;
+}
+#lblExistencias{
+	margin-left: 10%;
+}
+#lblPrecio{
+	margin-left: 10%;
+}
+#lblCategoria{
+	margin-left: 10%;
+}
+
+/*
+	txt
+*/
+#cNombre input{
+	margin-left:3%;
+}
+#cPrecio input{
+	margin-left:6%;
+}

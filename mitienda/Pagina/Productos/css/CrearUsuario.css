@@ -1,0 +1,64 @@
+#cuerpo{
+	background-color: rgb(238,238,238);
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	min-width: 449px;
+	min-height: 428px;
+	max-width:50%;
+	padding-top: 10px;
+	padding-left: 31px;
+	padding-right: 31px;
+	padding-bottom: 31px;
+}
+#titulo{
+	margin-top: 0%;
+}
+
+#cNombre{
+	display:inline-block;
+	width: 36.3%;
+}
+
+#cApellido{
+	display:inline-block;
+	margin-left:5%;
+	width: 57.7%;
+}
+
+#Correo{
+	display:inline-block;
+	width: 100%;
+}
+
+#cContrasena{
+	display:inline-block;
+	width: 41%;
+}
+
+#cRol{
+	display:inline-block;
+	width: 53%;
+	margin-left:5%;
+}
+
+#Botones{
+	margin-top: 5%;
+	width: 44%;
+	margin-left: 56%;
+}
+#Botones input{
+	font-weight: bold;
+	width: 48.99%;
+	height: 40px;
+}
+
+
+
+p{
+	font-family:  fantasy;
+	font-size: 20px;
+}
+input{
+	font-size: 17px;
+}

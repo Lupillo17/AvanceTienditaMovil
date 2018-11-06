@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<title>Agregar/Editar producto</title>
+		<link rel="stylesheet" type="text/css" href=".\..\css\AdministrarProducto.css">
+	</head>
+
+	<body>
+		<form method="POST" action="C:\xampp\htdocs\mitienda\conexion.php" >
+
+			<!--Inicio div contenedor -->
+			<div id="Contenedor">
+				<h3 id="TituloContenedor">Agregar/Editar producto</h3>
+				<!--Txt clave -->
+				<div id="cClave">
+					<p id="lblClave">Clave: </p>
+					<input 
+						type="text"
+						name="txtClave"
+					>	
+				</div>
+				<!--Fin Txt clave -->
+
+				<!--Inicio Txt producto -->
+				<div id="cProducto">
+					<p id="lblProducto">Producto: </p>
+					<input 
+						type="text"
+						name="txtProducto"
+					>
+				</div>
+				<!--Fin Txt producto -->
+
+				<!--Inicio Txt Existencias -->
+				<div id="cExistencias">
+					<p id="lblExistencias">Existencias: </p>
+					<input 
+						type="text"
+						name="txtExistencias"
+					>
+				</div>
+				<!--Fin Txt Existencias-->
+
+				<!--inicio div Precios -->
+				<div id="Precios">
+					<p id="lblPrecios">Precios</p>
+					<!--Inicio Txt A -->
+					<div id="cA">
+						<p id="lblA">A: </p>
+						<input 
+							type="text"
+							name="txtA"
+						>
+					</div>
+					<!--Fin Txt A-->
+					<!--Inicio Txt B -->
+					<div id="cB">
+						<p id="lblB">B: </p>
+						<input 
+							type="text"
+							name="txtB"
+						>
+					</div>
+					<!--Fin Txt B-->
+					<!--Inicio Txt C -->
+					<div id="cC">
+						<p id="lblC">C: </p>
+						<input 
+							type="text"
+							name="txtC"
+						>
+					</div>
+					<!--Fin Txt C-->
+				</div>
+				<!--Fin div Precios -->
+
+				<!--Inicio div ContImagen -->
+				<div id="ContenedorImagen">
+					<img 
+						src=".\..\img\prueba.jpg"
+						width="100px"
+						height="100px" 
+					>
+					<!--Inicio botón examinar -->
+					<input 
+						type="file"
+						name="btnExaminar"
+					>
+					<!--Fin botón examinar -->
+				</div>
+				<!--Fin div ContImagen -->
+
+				<!--Inicio div btnGuardarCancelar -->
+				<div id="btnGuardarCancelar">
+					<input 
+						type="submit"
+						name="btnGuardar"
+						value="Guardar" 
+					>
+					<input 
+						type="button"
+						name="btnCancelar"
+						value="Cancelar" 
+					>
+				</div>
+				<!--Fin div btnGuardarCancelar -->
+			</div>
+			<!--Fin div contenedor -->
+		</form>
+		
+	</body>
+</html>
